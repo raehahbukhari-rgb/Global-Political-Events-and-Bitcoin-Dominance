@@ -71,5 +71,7 @@ Political event data may not cover every country equally, and Bitcoin dominance 
    - create the BTC dominance plots
    - run the hypothesis test
    - save `btc_dominance_with_events.csv` into `/data`
+  
+I took assistance from AI during this project mainly for help with understanding errors, explaining certain Python methods, and improving the wording of my explanations.
 
 
