@@ -60,6 +60,16 @@ Political event data may not cover every country equally, and Bitcoin dominance 
 
 1. Install the required Python packages:
 
-   ```bash
    pip install -r requirements.txt
+
+2. Open the notebook `DSA_210_project.ipynb` in the `/notebooks` folder
+   (for example in Google Colab or Jupyter).
+
+3. Run all cells in order. This will:
+   - load the datasets from `/data`
+   - clean and merge them
+   - create the BTC dominance plots
+   - run the hypothesis test
+   - save `btc_dominance_with_events.csv` into `/data`
+
 
