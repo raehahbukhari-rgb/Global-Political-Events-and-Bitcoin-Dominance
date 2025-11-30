@@ -53,3 +53,11 @@ I expect that during politically unstable times, Bitcoin dominance will rise bec
 Limitations
 
 Political event data may not cover every country equally, and Bitcoin dominance is also affected by other factors such as ETF news or major exchange actions. I will mention these points in the final report.
+
+### How to Run the Project
+
+-Install the required Python packages:
+
+   ```bash
+   pip install -r requirements.txt
+
