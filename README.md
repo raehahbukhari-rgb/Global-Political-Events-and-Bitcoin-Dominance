@@ -10,12 +10,29 @@ I follow crypto trading and often notice that during wars, sanctions, or electio
 
 Data
 
-Bitcoin and total crypto market data: Market cap, dominance percentage, and volume from the CoinGecko API
-.
+This project uses two main datasets:
 
-Political events data: Timeline of international political events from GDELT Project
- or Wikipedia events data
-.
+1. Bitcoin Dominance Data (BTC.D)
+
+Source: TradingView
+
+Symbol: BTC.D
+
+The dataset includes daily open, high, low, and close values.
+
+I used the daily closing value as the Bitcoin dominance percentage.
+
+This file is located in the /data folder as BTC_D_dataset.csv.
+
+2. Political Events Data (2020–2025)
+
+A manually compiled list of major global political events such as elections, wars, conflicts, financial crises, and geopolitical shocks.
+
+These events were taken from reliable public sources including international news outlets and Wikipedia’s year-by-year political timelines.
+
+This dataset is saved as political_events_2020_2025.csv in the /data folder.
+
+After loading both files, I merged them using the date column to create a unified dataset called btc_dominance_with_events.csv, which is also included in the /data folder.
 
 
 Plan and Methods
