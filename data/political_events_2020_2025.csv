@@ -1,0 +1,17 @@
+date,event_name,category,severity,region
+03/01/2020,USA-Iran conflict escalation after Soleimani strike,war,high,Middle East
+11/03/2020,WHO declares COVID-19 global pandemic,crisis,high,Global
+03/11/2020,US Presidential Election,election,high,USA
+06/01/2021,US Capitol Riot political crisis,crisis,medium,USA
+19/05/2021,China intensifies national crypto crackdown,regulation,high,China
+15/08/2021,Taliban capture Kabul (Afghanistan government collapse),war,high,South Asia
+24/02/2022,Russia invades Ukraine,war,high,Europe
+01/06/2022,European Energy Crisis escalates,economic,medium,Europe
+08/11/2022,US Midterm Elections,election,medium,USA
+10/03/2023,Silicon Valley Bank collapse triggers banking crisis,economic,high,USA
+14/05/2023,Turkey Presidential Election,election,high,Turkey
+07/10/2023,Israel-Hamas conflict outbreak,war,high,Middle East
+13/01/2024,Taiwan Presidential Election increases China-Taiwan tensions,election,medium,Taiwan
+05/11/2024,US Presidential Election 2024,election,high,USA
+01/02/2025,South China Sea naval clashes escalate,war,medium,Asia-Pacific
+10/05/2025,Middle East political tensions increase causing oil shock,economic,medium,Middle East
