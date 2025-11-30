@@ -34,6 +34,8 @@ This dataset is saved as political_events_2020_2025.csv in the /data folder.
 
 After loading both files, I merged them using the date column to create a unified dataset called btc_dominance_with_events.csv, which is also included in the /data folder.
 
+Note: At first I planned to use CoinGecko and GDELT directly. In practice I ran into issues such as, CoinGecko’s free API does not provide a clean BTC dominance time series, and some historical pages returned 404 errors. Because of this I switched to TradingView’s BTC.D series (exported as CSV) and a manually compiled list of political events based on reliable public sources such as major news outlets and Wikipedia’s annual political summaries.
+
 
 Plan and Methods
 
