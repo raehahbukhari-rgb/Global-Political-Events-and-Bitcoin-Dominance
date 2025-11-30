@@ -56,7 +56,7 @@ Political event data may not cover every country equally, and Bitcoin dominance 
 
 ### How to Run the Project
 
--Install the required Python packages:
+1. Install the required Python packages:
 
    ```bash
    pip install -r requirements.txt
